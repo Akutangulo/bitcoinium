@@ -1,5 +1,5 @@
 
-package com.veken0m.bitcoinium;
+package com.veken0m.cavirtex;
 
 import android.view.ViewGroup.LayoutParams;
 import android.annotation.SuppressLint;
@@ -14,6 +14,7 @@ import android.webkit.WebView;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.ActionBar.Tab;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
+import com.veken0m.cavirtex.R;
 import com.veken0m.compatibility.WebViewSherlockFragment;
 
 @SuppressLint("SetJavaScriptEnabled")

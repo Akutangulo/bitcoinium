@@ -1,5 +1,5 @@
 
-package com.veken0m.bitcoinium;
+package com.veken0m.cavirtex;
 
 import android.content.Context;
 import android.content.Intent;
@@ -23,6 +23,7 @@ import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
+import com.veken0m.cavirtex.R;
 import com.veken0m.bitcoinium.mining.BitMinterFragment;
 import com.veken0m.bitcoinium.mining.DeepBitFragment;
 import com.veken0m.bitcoinium.mining.EMCFragment;
@@ -241,10 +242,10 @@ public class MinerStatsActivity extends SherlockFragmentActivity {
                     } else {
                         tvNextDifficulty.setTextColor(Color.RED);
                     }
-                    view.addView(tvCurrentDifficulty);
-                    view.addView(tvNextDifficulty);
-                    view.addView(tvBlockCount);
-                    view.addView(tvNextRetarget);
+                    view.addView(tvNextRetarget,1);
+                    view.addView(tvBlockCount,1);
+                    view.addView(tvNextDifficulty,1);
+                    view.addView(tvCurrentDifficulty,1);
                 } catch (Exception e) {
                     // Difficulty was NaN...
                 }

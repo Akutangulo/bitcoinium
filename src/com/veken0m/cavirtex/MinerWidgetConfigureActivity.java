@@ -1,5 +1,7 @@
 
-package com.veken0m.bitcoinium;
+package com.veken0m.cavirtex;
+
+import com.veken0m.cavirtex.R;
 
 import android.appwidget.AppWidgetManager;
 import android.content.Context;

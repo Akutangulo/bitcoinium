@@ -1,5 +1,5 @@
 
-package com.veken0m.bitcoinium;
+package com.veken0m.cavirtex;
 
 import android.appwidget.AppWidgetManager;
 import android.content.Context;
@@ -14,6 +14,7 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceGroup;
 import android.preference.PreferenceManager;
 
+import com.veken0m.cavirtex.R;
 import com.veken0m.bitcoinium.exchanges.Exchange;
 
 public class WidgetConfigureActivity extends PreferenceActivity {
