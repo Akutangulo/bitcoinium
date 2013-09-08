@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
     android:id="@+id/graphlayout"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -31,10 +32,22 @@
     <LinearLayout
         android:id="@+id/graphView"
         android:layout_width="wrap_content"
+        android:paddingTop="35dip"
+        android:paddingBottom="50dip"
         android:layout_height="wrap_content"
         android:gravity="center_vertical|center_horizontal"
         android:orientation="vertical" >
     </LinearLayout>
+    
+        <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        ads:adSize="BANNER"
+        ads:adUnitId="a14fe62988ba245"
+        ads:loadAdOnCreate="true"
+        ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID"
+        android:layout_alignParentBottom="true"/>
 
     <LinearLayout
         android:id="@+id/linlaHeaderProgress2"
@@ -51,4 +64,4 @@
         </ProgressBar>
     </LinearLayout>
 
-</LinearLayout>
+</RelativeLayout>
