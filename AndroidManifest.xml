@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.veken0m.cavirtex"
-    android:versionCode="39"
+    android:versionCode="40"
     android:versionName="@string/version_name" >
 
     <uses-sdk
@@ -108,6 +108,9 @@
             android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
             android:label="Web Charts" >
         </activity>
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
     </application>
 
 </manifest>
