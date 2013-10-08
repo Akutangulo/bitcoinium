@@ -4,49 +4,103 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:layout_weight="1"
+    android:background="@color/actionbar_color2"
     android:orientation="vertical" >
-    
-    <Button
-        android:id="@+id/widgetrefresh"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="@string/refreshButton"/>
-        <!--  android:drawableLeft="@drawable/bitcoiniumlogo" -->
 
-    <Button
-        android:id="@+id/orderbook"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:layout_weight="1"
-        android:text="@string/orderbookButton" />
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+       	android:layout_marginRight="5dp"
+        android:orientation="horizontal" >
 
-    <Button
-        android:id="@+id/bitcoincharts"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="@string/bitcoinChartsButton" />
+        <Button
+            android:id="@+id/widgetrefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="bottom|center"
+            android:padding="10dp"
+            android:background="@drawable/main_menu_button"
+            android:text="@string/refreshButton" />
+        <!-- android:drawableTop="@drawable/ -->
 
-    <Button
-        android:id="@+id/minerstats"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="@string/minerstatsButton" />
+        <Button
+            android:id="@+id/orderbook"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="bottom|center"
+            android:paddingBottom="6dp"
+            android:background="@drawable/main_menu_button"
+            android:text="@string/orderbookButton" />
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/displaygraph"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:layout_weight="1"
-        android:text="@string/graphButton" />
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal" >
 
-    <Button
-        android:id="@+id/marketdepth"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        <Button
+            android:id="@+id/bitcoincharts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="bottom|center"
+            android:paddingBottom="6dp"
+            android:background="@drawable/main_menu_button"
+            android:text="@string/bitcoinChartsButton" />
+
+        <Button
+            android:id="@+id/minerstats"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:paddingBottom="6dp"
+            android:gravity="bottom|center"
+            android:background="@drawable/main_menu_button"
+            android:text="@string/minerstatsButton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:layout_weight="1"
-        android:text="@string/exgraphButton" />
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/displaygraph"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:paddingBottom="6dp"
+            android:gravity="bottom|center"
+            android:background="@drawable/main_menu_button"
+            android:text="@string/graphButton" />
+
+        <Button
+            android:id="@+id/marketdepth"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:paddingBottom="6dp"
+            android:gravity="bottom|center"
+            android:background="@drawable/main_menu_button"
+            android:text="@string/exgraphButton" />
+    </LinearLayout>
 
 </LinearLayout>

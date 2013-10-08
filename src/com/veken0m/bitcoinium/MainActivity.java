@@ -56,7 +56,7 @@ public class MainActivity extends SherlockFragmentActivity {
         // Tell the ActionBar we want to use Tabs
         actionbar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
         actionbar.setStackedBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.actionbar_color)));
-        //actionbar.setBackgroundDrawable(color);
+        actionbar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.actionbar_color2)));
         
         SharedPreferences prefs = PreferenceManager
                 .getDefaultSharedPreferences(this);

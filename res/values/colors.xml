@@ -8,5 +8,8 @@
     <color name="widgetRefreshFailedColor">#ffff0000</color>
     
     <!--  Miscellaneous Colors -->
-    <color name="actionbar_color">#64A0A0A0</color>
+    <!-- <color name="actionbar_color">#64416784</color> -->
+    <color name="actionbar_color">#775ca1d7</color>
+    <color name="actionbar_color2">#64272d45</color>
+    <color name="actionbar_color3">#64272d45</color>
 </resources>   
